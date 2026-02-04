@@ -37,6 +37,20 @@ function afficherTable($n,$max = 9,$min = 1){
 
 afficherTable(10);
 
+function estPaire($n){
+    if($n%2 == 0)
+        {
+            echo "$n est pair";
+        }
+    else{
+        echo "$n est impair";
+    }
+}
+
+estPaire(10);
+echo "<br/>";
+estPaire(15);
+
 
 ?>
 
