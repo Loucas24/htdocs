@@ -43,7 +43,7 @@ function estPaire($n){
             echo "$n est pair";
         }
     else{
-        echo "%n est impair";
+        echo " $n est impair";
     }
 }
 
