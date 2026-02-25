@@ -40,10 +40,10 @@ afficherTable(10);
 function estPaire($n){
     if($n%2 == 0)
         {
-            return True;
+            echo "$n est pair";
         }
     else{
-        return False;
+        echo "%n est impair";
     }
 }
 
