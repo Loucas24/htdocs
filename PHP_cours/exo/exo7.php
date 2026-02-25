@@ -21,8 +21,15 @@
  <br>
 
  <?php
-    // Code Here
+    
     ?>
+
+<form action="resultat.php" method="post">
+        <label>prénom</label>
+        <input type="text" name="prenom" />
+<form action="resultat.php" method="post">
+        <label>nom</label>
+        <input type="text" name="nom" />
 
 
 
@@ -35,7 +42,20 @@
          resultats.php</code>. Tester votre code par rapport aux conditions de l'<strong>exercice 3 du chapitre 3</strong> !
  </p>
 
+  <form action="resultat.php" method="post">
+        <label>age</label>
+        <input type="text" name="age" />
+        <label>sexe</label>
+        <input type="radio" name="sexe" value="homme"  checked="checked" />homme
+        <br>
+        <input type="radio" name="sexe" value="femme"  /> femme
+        <br>
+        <input type="radio" name="sexe" value="croissant"  /> croissant
+        <br>
+    <input type="submit" value="Valider" />
+
 
  <?php $content = ob_get_clean(); ?>
 
  <?php require('../inc/template.php'); ?>
+
