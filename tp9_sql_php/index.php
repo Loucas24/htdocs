@@ -23,4 +23,14 @@
     } 
     //Affiche la liste de toutes les classes 
 
+    echo "<br>";
+    $prof = $dbPDO->prepare("SELECT * FROM prof ");
+    $prof ->execute();
+    $bro = $prof->fetchAll();
+    foreach($bro as $br) {
+    echo "<br>";
+    echo $br['Id_Prof']." ".$br['nom']." ".$br['prenom'];
+    } 
+    //Affiche la liste de touts les profs
+
 ?>
