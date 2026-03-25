@@ -10,51 +10,17 @@
  <h2>Exercice 1 :</h2>
 
  <p>Voici le code actuel du TP, tout le code tiens en un seul fichier ;&nbsp;</p>
- <pre>
-<code class="language-html">&lt;header class="s-header header"&gt;
+<?php
+    require_once('header.php');
+?>
 
-         &lt;div class="header__logo"&gt;
-             &lt;a class="logo" href="index.php"&gt;
-                 &lt;p&gt;Cours PHP&lt;/p&gt;
-             &lt;/a&gt;
-         &lt;/div&gt; &lt;!-- end header__logo --&gt;
+<?php
+    require_once('main.php');
+?>
 
-
-
-         &lt;a class="header__toggle-menu" href="#0" title="Menu"&gt;&lt;span&gt;Menu&lt;/span&gt;&lt;/a&gt;
-         &lt;nav class="header__nav-wrap"&gt;
-
-             &lt;h2 class="header__nav-heading h6"&gt;Navigate to&lt;/h2&gt;
-
-             &lt;ul class="header__nav"&gt;
-                 &lt;li class="current"&gt;&lt;a href="index.php" title=""&gt;Home&lt;/a&gt;&lt;/li&gt;
-                 &lt;li class="has-children"&gt;
-                    LISTE DES CHAPITRES
-                 &lt;/li&gt;
-                 &lt;li class="has-children"&gt;
-                     &lt;a href="#0" title=""&gt;Exercices&lt;/a&gt;
-                     LISTE DES EXERCICES
-                 &lt;/li&gt;
-
-             &lt;/ul&gt; &lt;!-- end header__nav --&gt;
-
-             &lt;a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu"&gt;Close&lt;/a&gt;
-
-         &lt;/nav&gt; &lt;!-- end header__nav-wrap --&gt;
-
-&lt;/header&gt;
-
-&lt;section class="s-featured"&gt;
-         &lt;div class="row"&gt;
-            LE CONTENU PRINCIPAL
-         &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;footer class="s-footer"&gt;
-
- LE FOOTER
-
-&lt;/footer&gt;</code></pre>
+<?php
+    require_once('footer.php');
+?>
 
  <ol>
      <li>Dans un fichier temps r&eacute;cup&eacute;rer ce code est le mettre dans un fichier exo8-tp.php</li>

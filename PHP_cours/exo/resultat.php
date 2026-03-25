@@ -21,7 +21,7 @@
                 echo "3 euros à Paris le croissant";
             }
         }
-        hello(intval($_POST['age']),$_POST['age']);
+        hello(intval($_POST['age']),$_POST['sexe']);
         echo "</br>";
         echo "Bonjour ".$_POST['prenom']." ".$_POST['nom'];
         echo "</br>";

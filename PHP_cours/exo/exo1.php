@@ -40,7 +40,7 @@
     echo "<br/>";
     echo date("j/m/Y");
     echo "<br/>";
-    echo date("G/i")
+    echo date("G/i");
 
 
 
