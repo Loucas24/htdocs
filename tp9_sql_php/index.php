@@ -8,8 +8,13 @@
     foreach($res as $re) {
     echo "<br>";
     echo $re['Id_eleve']." ".$re['nom']." ".$re['prenom'];
+    echo "<br>";
+    echo "<a href='./views/modif_etudiant.php?id=".$re['Id_eleve']."'>pour modifier cet eleve</a>";
+    echo "<br>";
+    echo "<a href='./views/suppression_etudiant.php?id=".$re['Id_eleve']."'>pour supprimer cet eleve</a>";
+    echo "<br>";        
     }  
-    //affiche la liste de tous les étudiants avec le nom et prénom
+    //affiche la liste de tous les étudiants avec le nom et prénom et la possibilité de le modifier
 
 
 
